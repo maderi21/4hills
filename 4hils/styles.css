@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background:#333;
+    color:#fff;
+    line-height: 1.6;
+    font-family: Mate SC;
+}
+
+
+
+.header{
+    background: #333;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 10;
+
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+    align-items: center;
+
+}
+
+
+.nav img{
+    width: 30px;
+    height: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* top action div */
+
+.action-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    position: relative;
+    margin: 50px auto;
+    width: 100%;
+    z-index: 10;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between; 
+}
+
+li {
+    list-style: none;
+    padding:50px;
+    cursor: pointer;
+}
+
+
+ul li:nth-child(2) {
+    color:#D20621;
+    font-size: 2.5em;
+    margin-top:-15px;
+    font-weight: bold;
+
+}
+
+/* the middle section */
+
+.middle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size:15em;
+    font-family: Sacramento;
+    font-weight: lighter;
+    
+}
+
+
+
+
+/* bottom section */
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    position: relative; 
+    margin:100px auto;
+    width: 100%;
+}
+
+.btm-text ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    position: relative; 
+    margin:0 auto;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slide styling */
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width:100vw;
+}
+
+
+.slide {
+    position: absolute;
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current{
+    opacity:1;
+}
+
+
+.buttons button#next {
+    position: absolute;
+    top:50%;
+    right:15px;
+}
+
+.buttons button#prev {
+    position: absolute;
+    top:50%;
+    left:15px;
+}
+
+
+.buttons button {
+border:2px solid #fff;
+background-color: transparent;
+color:#fff;
+cursor: pointer;
+padding: 13px 15px;
+border-radius: 50%;
+outline: none;
+}
+
+.buttons button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+@media(max-width: 500px) {
+    .slide .content {
+        bottom: -300px;
+        left: 0;
+        width:100%
+    }
+
+    .slide.current {
+        transform: translateY(-300px);
+    }
+}
+
+
+/*backround images*/
+
+.slide:first-child {
+    background: url('./images/hero.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(2) {
+    background: url('./images/rodina.png') no-repeat center center/cover;
+}
+.slide:nth-child(3) {
+    background: url('./images/jur3.png') no-repeat center center/cover;
+}
+.slide:nth-child(4) {
+    background: url('./images/jur4.png') no-repeat center center/cover;
+}
+
+
