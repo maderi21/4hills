@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 * {
     box-sizing: border-box;
@@ -64,7 +64,7 @@ body {
     justify-content: space-between;
     max-width: 70rem;
     position: relative;
-    margin: 50px auto;
+    margin: 5px auto;
     width: 100%;
     z-index: 10;
     align-items: center;
@@ -86,7 +86,7 @@ li {
 ul li:nth-child(2) {
     color:#D20621;
     font-size: 2.5em;
-    margin-top:-15px;
+    margin-top:-17px;
     font-weight: bold;
 
 }
@@ -94,39 +94,30 @@ ul li:nth-child(2) {
 /* the middle section */
 
 .middle {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size:15em;
-    font-family: Sacramento;
-    font-weight: lighter;
+    position: absolute;
+    top:50%;
+    right:50%;
+    font-family: Dancing Script;
+    font-weight:large;
+    
     
 }
-
 
 
 
 /* bottom section */
 
 .bottom{
+    padding-top: 500px;
     display: flex;
     justify-content: space-between;
     max-width: 70rem;
     position: relative; 
     margin:100px auto;
     width: 100%;
+
 }
 
-.btm-text ul{
-    display: flex;
-    justify-content: space-between;
-    max-width: 70rem;
-    position: relative; 
-    margin:0 auto;
-    width: 100%;
-    
-}
 
 
 
