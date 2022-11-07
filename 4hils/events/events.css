@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background:gray;
+    color:#fff;
+    line-height: 1.6;
+    font-family: Mate SC;
+}
+
+.events{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/events.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    background: rgba(0,0,0,.5);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 10;
+
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+    align-items: center;
+
+}
+
+
+.nav img{
+    width: 30px;
+    height: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* top section */
+.action-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    position: relative;
+    margin: 5px auto;
+    width: 100%;
+    z-index: 10;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between; 
+}
+
+li {
+    list-style: none;
+    padding:50px;
+    cursor: pointer;
+}
+
+li:hover {
+    color:#D20621;
+}
+
+
+ul li:nth-child(2) {
+    color:#D20621;
+    font-size: 2.5em;
+    margin-top:-17px;
+    font-weight: bold;
+}
+
+
+/* main content */
+
+.main-events{
+    max-width: 70rem;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-bottom:30px;
+    font-family: Sacramento;
+    font-size: 60px;
+}
+
+
+h2{
+    color: black;
+}
+
+.img-ev{
+    width: 500px;
+}
+
+.txt-ev{
+    width:300px;
+}
+
+.join-ev p{
+    color:black;
+    font-weight: bold;
+}
