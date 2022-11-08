@@ -91,5 +91,39 @@
  .container #next{
      right:800px;  
    }
+
+   /* quantity check */
  
- 
+ .minus{
+    
+    padding:9px;
+    font-size:15px;
+    color:white;
+    border-radius:10%;
+    background: #666;
+    cursor:pointer;
+    
+
+    
+ }
+
+ .num{
+    
+    padding:9px;
+    background: #666;
+    color:#fff;
+    border-radius: 50%;
+    font-size: 15px;
+ }
+
+
+ .plus{
+    padding:9px;
+    font-size:15px;
+    color:white;
+    border-radius:10%;
+    background: #666;
+    cursor:pointer;
+    
+ }
+
