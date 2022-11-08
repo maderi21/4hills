@@ -1,0 +1,123 @@
+/* <!-- main slider --> */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline:none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+
+
+.container{
+    position:relative;
+ }
+ 
+ .container .slide-container .slide{
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ gap:15px;
+ padding:20px 9%;
+ padding-bottom: 70px;
+ }
+ 
+ .container .slide-container .slide .cnt{
+     flex:1 1 350px;
+ }
+ 
+ .container .slide-container .slide .image{
+     flex:1 1 500px;
+ }
+ 
+ .container .slide-container .slide .image img{
+     width: 100%;
+ }
+ 
+ .container .slide-container .slide .cnt h3{
+     font-size: 35px;
+     color: black;
+ }
+ 
+ .container .slide-container .slide .cnt p{
+     font-size: 16px;
+     color: black;
+     padding: 10px 0;
+ }
+ 
+ .container .slide-container .slide .cnt .shop-btn{
+     margin-top: 10px;
+     display: inline-block;
+     background: #666;
+     color:#fff;
+     font-size:17px;
+     padding: 9px 40px;
+ }
+ 
+ .container .slide-container {
+     display: none;
+ }
+ 
+ .container .slide-container.active {
+     display: block;
+ }
+ 
+ .container .slide-container:nth-child(1) .slide{
+     background: linear-gradient(90deg, white 70%, #ffff99 30,1%);
+ }
+ 
+ .container .slide-container:nth-child(2) .slide{
+     background: linear-gradient(90deg, white 70%, #ffff99 30,1%);
+ }
+ 
+ .container .slide-container:nth-child(3) .slide{
+     background: linear-gradient(90deg, white 70%, #ffff99 30,1%);
+ }
+ 
+ .container .slide-container:nth-child(4) .slide{
+     background: linear-gradient(90deg, white 70%, #ffff99 30,1%);
+ }
+ 
+ .container .slide-container:nth-child(5) .slide{
+     background: linear-gradient(90deg, white 70%, #ffff99 30,1%);
+ }
+ 
+ .container .slide-container:nth-child(6) .slide{
+     background: linear-gradient(90deg, white 70%, #ffff99 30,1%);
+ }
+ 
+ .container #prev,
+ .container #next{
+     position: absolute;
+     top:50%;
+     transform:translateY(-50%);
+     height:50px;
+     width:40px;
+     line-height: 50px;
+     font-size: 25px;
+     text-align: center;
+     cursor:pointer;
+     font-weight: bolder;
+     size:20px;
+ }
+ 
+ .container #prev img,
+ .container #next img{
+    width: 60px;
+ }
+
+
+ 
+ .container #prev{
+   left:20px;  
+ }
+ 
+ .container #next{
+     right:20px;  
+   }
+ 
+ 
