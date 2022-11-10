@@ -91,7 +91,7 @@ padding: 20px 0;
     position: fixed;
     top:0;
     right:0;
-    /* right: -100%; */
+    right: -100%;
     width:360px;
     height:100vh;
     overflow-y: auto;
@@ -206,10 +206,6 @@ cursor: pointer;
 
 
 
-
-
-
-
 /* shop section */
 
 .shop{
@@ -274,8 +270,36 @@ cursor: pointer;
 }
 
 
+/* --------------------reposponsive and breakpoints-------------------- */
 
+@media(max-width: 1080px){
+.nav{
+    padding: 15px;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+section{
+    padding: 3rem 0 2rem;
+}
 
+.shop{
+    margin-top: 2rem;
+}
+}
 
+/* for medium devices */
 
+@media (max-width: 400px){
+    .nav{
+        padding:11px;
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    .cart{
+        width:320px;
+    }
+}
 
